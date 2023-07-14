@@ -1,0 +1,191 @@
+digraph "network_diagram - All" {
+	graph [bgcolor=grey dpi=300 fontcolor=black fontsize=16 label=PcapGraph overlap=scale rankdir=LR size="10, 10"]
+	node [color=" black" fillcolor=yellow fixedsize=true fontcolor=black fontname=Helvetica height=3 shape=circle style=filled width=3]
+	node [shape=doublecircle]
+	node [shape=circle]
+	"192.168.0.141
+12.87.03.91.35.3f
+Unknown"
+	"192.168.0.141
+12.87.03.91.35.3f
+Unknown" -> "ff.ff.ff.ff.ff.ff
+PossibleGateway" [label="UnknownProtocol/137: 255.255.255.255" color=brown]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 172.217.167.195: del03s18-in-f3.1e100.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 172.217.27.163: del11s03-in-f3.1e100.net" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 35.201.124.9: 9.124.201.35.bc.googleusercontent.com" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 203.23.178.29: relay-fcac249d.net.anydesk.com" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 34.237.73.95: ec2-34-237-73-95.compute-1.amazonaws.com" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.239.60: whatsapp-cdn-shv-02-del1.fbcdn.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.239.17: edge-star-shv-02-del1.facebook.com" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" [label="HTTPS: 157.240.239.18: edge-msgr-latest-shv-02-del1.facebook.com" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" [label="HTTPS: 157.240.16.63: instagram-p3-shv-01-bom1.fbcdn.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.239.35: edge-star-mini-shv-02-del1.facebook.com" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" [label="HTTPS: 31.13.79.63: instagram-p3-shv-02-bom1.fbcdn.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.16.16: edge-star-shv-01-bom1.facebook.com" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"157.240.239.20
+c8.3a.35.39.63.a0"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "157.240.239.20
+c8.3a.35.39.63.a0" [label="WeirdTraffic/443" color=pink]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.239.1: xx-fbcdn-shv-02-del1.fbcdn.net" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" [label="DNS: 192.168.0.1" color=orange]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 142.250.193.46: del11s15-in-f14.1e100.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 142.250.194.206: del12s07-in-f14.1e100.net" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"31.13.79.63
+c8.3a.35.39.63.a0"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "31.13.79.63
+c8.3a.35.39.63.a0" [label="WeirdTraffic/ICMP" color=pink]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 216.58.196.106: maa03s19-in-f106.1e100.net" color=blue]
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc"
+	"192.168.0.147
+b8.08.cf.fa.cd.4b
+Cisco Systems, Inc" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 216.58.221.54: del03s07-in-f22.1e100.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 157.240.239.63: instagram-p3-shv-02-del1.fbcdn.net" color=blue]
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown"
+	"192.168.0.147
+b2.e7.62.5b.3d.5a
+Unknown" -> "192.168.0.1
+c8.3a.35.39.63.a0
+Texas Instrumen" [label="HTTPS: 142.250.194.46: del12s02-in-f14.1e100.net" color=blue]
+}

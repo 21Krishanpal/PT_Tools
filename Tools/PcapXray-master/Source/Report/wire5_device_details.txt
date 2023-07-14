@@ -1,0 +1,37 @@
+deviceDetails: {
+  "12:87:03:91:35:3f": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.0.141",
+    "node": "192.168.0.141\n12.87.03.91.35.3f\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "b2:e7:62:5b:3d:5a": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.0.147",
+    "node": "192.168.0.147\nb2.e7.62.5b.3d.5a\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "b8:08:cf:fa:cd:4b": {
+    "device_vendor": "Cisco Systems, Inc",
+    "ip": "192.168.0.147",
+    "node": "192.168.0.147\nb8.08.cf.fa.cd.4b\nCisco Systems, Inc",
+    "vendor_address": [
+      "Santa Clara  CA  95050",
+      "US",
+      "80 West Tasman"
+    ]
+  },
+  "c8:3a:35:39:63:a0": {
+    "device_vendor": "Texas Instrumen",
+    "ip": "192.168.0.1",
+    "node": "192.168.0.1\nc8.3a.35.39.63.a0\nTexas Instrumen",
+    "vendor_address": [
+      "ad",
+      "Wuhan  Hubei  430074",
+      "CN",
+      "6450 Sequence Drive",
+      "San Diego  CA  92121",
+      "US"
+    ]
+  }
+}

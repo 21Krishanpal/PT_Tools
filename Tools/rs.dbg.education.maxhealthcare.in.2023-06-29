@@ -1,0 +1,172 @@
+SSLyze - Checks for Secure Renegotiation Support and Client Renegotiation.
+------------------------
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   education.maxhealthcare.in:443 => ERROR: Connection to the server failed; discarding scan.
+
+ SCANS COMPLETED IN 0.22864 S
+ ----------------------------
+
+ COMPLIANCE AGAINST MOZILLA TLS CONFIGURATION
+ --------------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern}.
+
+
+
+Fierce Subdomains Bruter - Brute Forces Subdomain Discovery.
+------------------------
+
+NS: ns2.maxhealthcare.com. ns4.maxhealthcare.com. ns1.maxhealthcare.com. ns3.maxhealthcare.com.
+SOA: ns4.maxhealthcare.com. (162.251.82.252)
+Traceback (most recent call last):
+  File "/usr/bin/fierce", line 33, in <module>
+    sys.exit(load_entry_point('fierce==1.5.0', 'console_scripts', 'fierce')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 491, in main
+    fierce(**vars(args))
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 328, in fierce
+    zone = zone_transfer(master_address, domain)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 153, in zone_transfer
+    return dns.zone.from_xfr(dns.query.xfr(address, domain))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 1369, in from_xfr
+    for r in xfr:
+  File "/usr/lib/python3/dist-packages/dns/query.py", line 1229, in xfr
+    _connect(s, destination, expiration)
+  File "/usr/lib/python3/dist-packages/dns/query.py", line 876, in _connect
+    raise OSError(err, os.strerror(err))
+OSError: [Errno 101] Network is unreachable
+
+
+WebDAV - Checks if WEBDAV enabled on Home directory.
+------------------------
+
+OPEN		FAIL:	http://education.maxhealthcare.in	The URL "http://education.maxhealthcare.in/" is not DAV enabled or not accessible.
+********************************************************
+ Testing DAV connection
+
+
+Nikto - Enumerates CGI Directories.
+------------------------
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ No web server found on education.maxhealthcare.in:80
+---------------------------------------------------------------------------
++ 0 host(s) tested
+
+
+Nikto - Checks for Injectable Paths.
+------------------------
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ No web server found on education.maxhealthcare.in:80
+---------------------------------------------------------------------------
++ 0 host(s) tested
+
+
+Checks for SMB Service over TCP
+------------------------
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-06-29 07:31 EDT
+Nmap done: 1 IP address (1 host up) scanned in 0.20 seconds
+
+
+Wafw00f - Checks for Application Firewalls.
+------------------------
+
+ERROR:wafw00f:Something went wrong HTTPSConnectionPool(host='education.maxhealthcare.in', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fce99b0a3d0>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+ERROR:wafw00f:Site education.maxhealthcare.in appears to be down
+
+                   [1;97m______
+                  [1;97m/      \
+                 [1;97m(  Woof! )
+                  [1;97m\  ____/                      [1;91m)
+                  [1;97m,,                           [1;91m) ([1;93m_
+             [1;93m.-. [1;97m-    [1;92m_______                 [1;91m( [1;93m|__|
+            [1;93m()``; [1;92m|==|_______)                [1;91m.)[1;93m|__|
+            [1;93m/ ('        [1;92m/|\                  [1;91m(  [1;93m|__|
+        [1;93m(  /  )       [1;92m / | \                  [1;91m. [1;93m|__|
+         [1;93m\(_)_))      [1;92m/  |  \                   [1;93m|__|[0m
+
+                    [1;96m~ WAFW00F : [1;94mv2.2.0 ~[1;97m
+    The Web Application Firewall Fingerprinting Toolkit
+    [0m
+[*] Checking https://education.maxhealthcare.in
+
+
+AMass - Brutes Domain for Subdomains
+------------------------
+
+No names were discovered
+
+The enumeration has finished
+Discoveries are being migrated into the local database
+
+
+DMitry - Passively Harvests Emails from the Domain.
+------------------------
+
+
+
+Nmap - Checks for IIS WebDAV
+------------------------
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-06-29 07:35 EDT
+Nmap scan report for education.maxhealthcare.in (40.80.92.118)
+Host is up (0.000034s latency).
+
+PORT   STATE    SERVICE
+80/tcp filtered http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.91 seconds
+
+
+Nikto - Checks for Server Issues.
+------------------------
+
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ No web server found on education.maxhealthcare.in:80
+---------------------------------------------------------------------------
++ 0 host(s) tested
+
+
+SSLyze - Checks only for Heartbleed Vulnerability.
+------------------------
+
+
+ CHECKING CONNECTIVITY TO SERVER(S)
+ ----------------------------------
+
+   education.maxhealthcare.in:443 => ERROR: Connection to the server failed; discarding scan.
+
+ SCANS COMPLETED IN 0.14480 S
+ ----------------------------
+
+ COMPLIANCE AGAINST MOZILLA TLS CONFIGURATION
+ --------------------------------------------
+
+    Disabled; use --mozilla_config={old, intermediate, modern}.
+
+
+
+Nmap [POODLE] - Checks only for Poodle Vulnerability.
+------------------------
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-06-29 07:35 EDT
+Nmap scan report for education.maxhealthcare.in (40.80.92.118)
+Host is up (0.000031s latency).
+
+PORT    STATE    SERVICE
+443/tcp filtered https
+
+Nmap done: 1 IP address (1 host up) scanned in 0.30 seconds
+
+

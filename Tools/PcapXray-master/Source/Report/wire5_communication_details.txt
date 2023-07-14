@@ -1,0 +1,212 @@
+CommunicationDetails: {
+  "142.250.193.46": {
+    "domain_name": "del11s15-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "142.250.194.206": {
+    "domain_name": "del12s07-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "142.250.194.46": {
+    "domain_name": "del12s02-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.16.16": {
+    "domain_name": "edge-star-shv-01-bom1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.16.63": {
+    "domain_name": "instagram-p3-shv-01-bom1.fbcdn.net",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.1": {
+    "domain_name": "xx-fbcdn-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.17": {
+    "domain_name": "edge-star-shv-02-del1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.18": {
+    "domain_name": "edge-msgr-latest-shv-02-del1.facebook.com",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.20": {
+    "domain_name": "edge-mqtt-shv-02-del1.facebook.com",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.35": {
+    "domain_name": "edge-star-mini-shv-02-del1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.60": {
+    "domain_name": "whatsapp-cdn-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.63": {
+    "domain_name": "instagram-p3-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "172.217.167.195": {
+    "domain_name": "del03s18-in-f3.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "172.217.27.163": {
+    "domain_name": "del11s03-in-f3.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "203.23.178.29": {
+    "domain_name": "relay-fcac249d.net.anydesk.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "216.58.196.106": {
+    "domain_name": "maa03s19-in-f106.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "216.58.221.54": {
+    "domain_name": "del03s07-in-f22.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "255.255.255.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "31.13.79.63": {
+    "domain_name": "instagram-p3-shv-02-bom1.fbcdn.net",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "34.237.73.95": {
+    "domain_name": "ec2-34-237-73-95.compute-1.amazonaws.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "35.201.124.9": {
+    "domain_name": "9.124.201.35.bc.googleusercontent.com",
+    "mac": "c8:3a:35:39:63:a0"
+  }
+}
+Tor Traffic: []
+Malicious Traffic: []
+Destination DNS: {
+  "142.250.193.46": {
+    "domain_name": "del11s15-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "142.250.194.206": {
+    "domain_name": "del12s07-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "142.250.194.46": {
+    "domain_name": "del12s02-in-f14.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.16.16": {
+    "domain_name": "edge-star-shv-01-bom1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.16.63": {
+    "domain_name": "instagram-p3-shv-01-bom1.fbcdn.net",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.1": {
+    "domain_name": "xx-fbcdn-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.17": {
+    "domain_name": "edge-star-shv-02-del1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.18": {
+    "domain_name": "edge-msgr-latest-shv-02-del1.facebook.com",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.20": {
+    "domain_name": "edge-mqtt-shv-02-del1.facebook.com",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "157.240.239.35": {
+    "domain_name": "edge-star-mini-shv-02-del1.facebook.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.60": {
+    "domain_name": "whatsapp-cdn-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "157.240.239.63": {
+    "domain_name": "instagram-p3-shv-02-del1.fbcdn.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "172.217.167.195": {
+    "domain_name": "del03s18-in-f3.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "172.217.27.163": {
+    "domain_name": "del11s03-in-f3.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "203.23.178.29": {
+    "domain_name": "relay-fcac249d.net.anydesk.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "216.58.196.106": {
+    "domain_name": "maa03s19-in-f106.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "216.58.221.54": {
+    "domain_name": "del03s07-in-f22.1e100.net",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "255.255.255.255": {
+    "domain_name": "NotResolvable",
+    "mac": "ff:ff:ff:ff:ff:ff"
+  },
+  "31.13.79.63": {
+    "domain_name": "instagram-p3-shv-02-bom1.fbcdn.net",
+    "mac": "b8:08:cf:fa:cd:4b"
+  },
+  "34.237.73.95": {
+    "domain_name": "ec2-34-237-73-95.compute-1.amazonaws.com",
+    "mac": "c8:3a:35:39:63:a0"
+  },
+  "35.201.124.9": {
+    "domain_name": "9.124.201.35.bc.googleusercontent.com",
+    "mac": "c8:3a:35:39:63:a0"
+  }
+}
+Lan Hosts: {
+  "12:87:03:91:35:3f": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.0.141",
+    "node": "192.168.0.141\n12.87.03.91.35.3f\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "b2:e7:62:5b:3d:5a": {
+    "device_vendor": "Unknown",
+    "ip": "192.168.0.147",
+    "node": "192.168.0.147\nb2.e7.62.5b.3d.5a\nUnknown",
+    "vendor_address": "Unknown"
+  },
+  "b8:08:cf:fa:cd:4b": {
+    "device_vendor": "Cisco Systems, Inc",
+    "ip": "192.168.0.147",
+    "node": "192.168.0.147\nb8.08.cf.fa.cd.4b\nCisco Systems, Inc",
+    "vendor_address": [
+      "Santa Clara  CA  95050",
+      "US",
+      "80 West Tasman"
+    ]
+  },
+  "c8:3a:35:39:63:a0": {
+    "device_vendor": "Texas Instrumen",
+    "ip": "192.168.0.1",
+    "node": "192.168.0.1\nc8.3a.35.39.63.a0\nTexas Instrumen",
+    "vendor_address": [
+      "ad",
+      "Wuhan  Hubei  430074",
+      "CN",
+      "6450 Sequence Drive",
+      "San Diego  CA  92121",
+      "US"
+    ]
+  }
+}
+Tor Nodes: []

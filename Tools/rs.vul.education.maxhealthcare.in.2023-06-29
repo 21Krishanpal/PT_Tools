@@ -1,0 +1,149 @@
+Fierce Subdomains Bruter - Brute Forces Subdomain Discovery.
+------------------------
+
+NS: ns2.maxhealthcare.com. ns4.maxhealthcare.com. ns1.maxhealthcare.com. ns3.maxhealthcare.com.
+SOA: ns4.maxhealthcare.com. (162.251.82.252)
+Traceback (most recent call last):
+  File "/usr/bin/fierce", line 33, in <module>
+    sys.exit(load_entry_point('fierce==1.5.0', 'console_scripts', 'fierce')())
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 491, in main
+    fierce(**vars(args))
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 328, in fierce
+    zone = zone_transfer(master_address, domain)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/fierce/fierce.py", line 153, in zone_transfer
+    return dns.zone.from_xfr(dns.query.xfr(address, domain))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/dns/zone.py", line 1369, in from_xfr
+    for r in xfr:
+  File "/usr/lib/python3/dist-packages/dns/query.py", line 1229, in xfr
+    _connect(s, destination, expiration)
+  File "/usr/lib/python3/dist-packages/dns/query.py", line 876, in _connect
+    raise OSError(err, os.strerror(err))
+OSError: [Errno 101] Network is unreachable
+
+
+AMass - Brutes Domain for Subdomains
+------------------------
+
+No names were discovered
+
+The enumeration has finished
+Discoveries are being migrated into the local database
+
+
+DMitry - Passively Harvests Emails from the Domain.
+------------------------
+
+
+
+DMitry - Passively Harvests Subdomains from the Domain.
+------------------------
+
+
+
+WhatWeb - Checks for X-XSS Protection Header
+------------------------
+
+[1m[31mERROR Opening: http://education.maxhealthcare.in - Network is unreachable - connect(2) for "40.80.92.118" port 80[0m
+
+
+The Harvester - Scans for emails using Google's passive search.
+------------------------
+
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __|  _ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.2.0                                              *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[!] Invalid source.
+
+
+
+Host - Checks for existence of IPV6 address.
+------------------------
+
+;; communications error to 2401:4900:2e97:16cd::af#53: timed out
+education.maxhealthcare.in has address 40.80.92.118
+
+
+LBD - Checks for DNS/HTTP Load Balancers.
+------------------------
+
+
+lbd - load balancing detector 0.4 - Checks if a given domain uses load-balancing.
+                                    Written by Stefan Behte (http://ge.mine.nu)
+                                    Proof-of-concept! Might give false positives.
+
+Checking for DNS-Loadbalancing: NOT FOUND
+Checking for HTTP-Loadbalancing [Server]: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ NOT FOUND
+
+Checking for HTTP-Loadbalancing [Date]: , No date header found, skipping.
+
+Checking for HTTP-Loadbalancing [Diff]: NOT FOUND
+
+education.maxhealthcare.in does NOT use Load-balancing.
+
+
+
